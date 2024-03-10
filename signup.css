@@ -1,0 +1,108 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background:url('ff.avif') no-repeat;
+background-position: center;
+background-size: 90pc;
+}
+
+
+.signup{
+    background: transparent;
+    text-align: center;
+    border:1px solid white;
+    border-radius: 30px;
+    padding: 30px 40px;
+    color: rgb(8, 0, 0);
+    backdrop-filter: blur(7px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 20%;
+}
+.signup.com{
+    color: aqua;
+}
+.signup h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/* .signup .input-item-box input{
+    width: 100%;
+    border-radius: 20px;
+    height: 255px;
+    background-color: transparent;
+    border-bottom: solid 4px white; */
+    
+/* } */
+.signup .input-item-box{
+    width: 100%;
+    height: 50%;
+
+    margin: 0px 0;
+}
+.signup .input-item-box1{
+    width: 100%;
+    height: 50%;
+
+    margin: 0px 0;
+}
+.input-item-box input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid rgb(2, 0, 0); 
+    /* border-radius: 20px; */
+    text-underline-position: below;
+    size: 20px;
+}
+.input-item-box1 input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid rgb(2, 0, 0); 
+    /* border-radius: 20px; */
+    text-underline-position: below;
+    size: 20px;
+}
+    
+.btn{
+    background-color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 75%;
+  }
+    
+.remember-Forgot{
+    color: white;
+}
+.remember-Forgot a{
+    color: aqua;
+}
+.signup .input-item-box label{
+    position: absolute;
+    left:0;
+    padding: 0px 42px 10px;
+    font-size: 1em;
+    pointer-events: none;
+    transform: translateY(-27px);
+    color: #d3c7c7;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.signup .input-item-box input:valid ~label,
+.signup .input-item-box input:focus~label{
+    color: #fff;
+    font-size: 0.75em;
+    transform: translateY(-20px);
+    margin-top: -20px;
+}
+.navbar-header{
+    border: 2px solid red;
+}

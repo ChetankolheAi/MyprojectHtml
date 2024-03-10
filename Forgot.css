@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url('ff.avif') no-repeat;
+    background-position: center;
+    background-size: 90pc;
+}
+.wrapper2{
+    background: transparent;
+    text-align: center;
+    border:1px solid white;
+    border-radius: 30px;
+    padding: 30px 40px;
+    color: rgb(8, 0, 0);
+    backdrop-filter: blur(7px);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 20%;
+}
+.input-text input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid rgb(16, 15, 15); ;
+    text-underline-position: below;
+    size: 20px;
+
+    
+}
+.input-text label{
+    color: rgb(137, 131, 131);
+    top: 42%;
+    left: 40px;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 1rem;
+    pointer-events: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.5s ease-in-out;
+}
+.wrapper2 .input-text input:valid ~label,
+.wrapper2 .input-text input:focus~label{
+    color: #fff;
+    font-size: 0.85em;
+    transform: translateY(-9px);
+    margin-top: -20px;
+}
+
+.reset{
+    background-color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 75%;
+  }
+.next a{
+    color: aqua;
+  }
+  .btn{
+    background-color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 75%;
+  }
+  .wrapper2 .register-link a{
+    color: rgb(0, 217, 255);
+  }
+  .wrapper2 .register-link p{
+    color: white;
+    
+  }
+  .button1{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 2px solid black;
+    background-color: white;
+  }

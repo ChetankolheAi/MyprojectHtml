@@ -1,0 +1,125 @@
+.topnav {
+    background-color: rgb(30, 30, 20);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:color-mix(in srgb, red 20%, white 80%);
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .bc{
+    color: red;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url('ff.avif') no-repeat;
+    
+    background-position: center;
+    background-size: 90pc;
+  
+  }
+  .wrapper {
+    background: transparent;
+    text-align: center;
+    border:1px solid white;
+    border-radius: 30px;
+    padding: 30px 40px;
+    color: rgb(8, 0, 0);
+    backdrop-filter: blur(7px);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .wrapper h1{
+    font-size: 36px;
+  }
+  .wrapper .input-box  {
+    width: 100%;
+    height: 50%;
+
+    margin: 30px 0;
+    
+  }
+  .input-box input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid rgb(2, 0, 0); 
+    /* border-radius: 20px; */
+    text-underline-position: below;
+    size: 20px;
+
+  
+  
+  }
+  .btn{
+    background-color: white;
+    border-radius: 20px;
+    height: 35px;
+    width: 95%;
+  }
+  .input-box i{
+    position: absolute;
+    right: 105px;
+    transform: translatey(65%);
+  }
+  .wrapper .register-link{
+    font-size: 14px;
+    margin: 20px 0 15px;
+    color: white;
+  }
+.wrapper .remember-Forgot label{
+  color: #fcfffe;
+  text-shadow: red;
+}
+.wrapper .register-link a{
+  color: rgb(0, 217, 255)
+}
+.wrapper .remember-Forgot a{
+  color: rgb(0, 217, 255);
+}
+.wrapper .input-box label{
+  position: absolute;
+  left:0;
+  padding: 10px 42px 10px;
+  font-size: 1.1em;
+  pointer-events: none;
+  /* transform: translateY(-27px); */
+  color: #d3c7c7;
+  letter-spacing: 0.05em;
+  transition: 0.5s;
+
+}
+.wrapper .input-box input:valid ~label,
+.wrapper .input-box input:focus~label{
+    color: #fff;
+    font-size: 0.85em;
+    transform: translateY(6px);
+    margin-top: -20px;
+}
